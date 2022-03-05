@@ -58,10 +58,6 @@
     <None Include="SpreadSheetEngine.ruleset" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
-    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ExpressionTree\ExpressionTree\ExpressionTree.csproj">
       <Project>{f896dae8-8a20-4a5b-b2c5-e45293ee4db0}</Project>
       <Name>ExpressionTree</Name>
